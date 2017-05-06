@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class EncryptManagerTest {
 	@Test
 	public void encryptAES() throws Exception {
-		String enc = EncryptManager.encryptAES("meh", "data");
+		String enc = EncryptManager.encryptAES("fml", "data");
 		assertEquals("uYXnFleOfcAa9U7tlJP23g==", enc);
 	}
 
